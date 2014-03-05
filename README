@@ -1,36 +1,35 @@
-
-Bitcoin button plugin
+Mediterraneancoin button plugin
 =====================
 
-This Wordpress plugin providing a shortcode for showing links to bitcoin addresses
+This Wordpress plugin providing a shortcode for showing links to Mediterraneancoin addresses
 which can for example be used as a donation address.
 
 Example shortcode:
-[bitcoin address="1GRJ6119tmKDUfr8HWR4VaYrvJ6oKns9jp"]
+[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf"]
 
 The shortcode will insert a small button that links to the Bitcoin address. When
 the mouse is hovered over the button a QR code representing the address is shown.
 Further info on the address can be shown to the right of the button. This info is
-fetched from the API at http://blockchain.info/.
+fetched from the API at http://explorer.mediterraneancoin.org/.
 
 To show the number of transactions the address has been used in:
-[bitcoin address="1GRJ6119tmKDUfr8HWR4VaYrvJ6oKns9jp" info="transaction"]
+[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" info="transaction"]
 
 To show the amount received by the address:
-[bitcoin address="1GRJ6119tmKDUfr8HWR4VaYrvJ6oKns9jp" info="received"]
+[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" info="received"]
 
 To show the current balance of the address:
-[bitcoin address="1GRJ6119tmKDUfr8HWR4VaYrvJ6oKns9jp" info="balance"]
+[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" info="balance"]
 
 To show no info other than the address and QR code:
-[bitcoin address="1GRJ6119tmKDUfr8HWR4VaYrvJ6oKns9jp" info="none"]
+[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" info="none"]
 
 URL hints
 ---------
 The bitcoin URLs can optionally include a label, a message and/or a suggested
 amount to pay. These can be added to the URLs by setting the corresponding
 setting on the shortcode. For example:
-[bitcoin address="1GRJ6119tmKDUfr8HWR4VaYrvJ6oKns9jp" label="jonls.dk" amount="0.02" message="For donations to my projects"]
+[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" label="jonls.dk" amount="0.02" message="For donations to my projects"]
 
 Widgets
 -------
