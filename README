@@ -7,39 +7,8 @@ which can for example be used as a donation address.
 Example shortcode:
 [mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf"]
 
-The shortcode will insert a small button that links to the Bitcoin address. When
+The shortcode will insert a small button that links to the Mediterraneancoin address. When
 the mouse is hovered over the button a QR code representing the address is shown.
-Further info on the address can be shown to the right of the button. This info is
-fetched from the API at http://explorer.mediterraneancoin.org/.
-
-To show the number of transactions the address has been used in:
-[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" info="transaction"]
-
-To show the amount received by the address:
-[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" info="received"]
-
-To show the current balance of the address:
-[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" info="balance"]
-
-To show no info other than the address and QR code:
-[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" info="none"]
-
-URL hints
----------
-The bitcoin URLs can optionally include a label, a message and/or a suggested
-amount to pay. These can be added to the URLs by setting the corresponding
-setting on the shortcode. For example:
-[mediterraneancoin address="MeGbEre5ZyD3ug946sPuq5C6yy8ZPriwhf" label="jonls.dk" amount="0.02" message="For donations to my projects"]
-
-Widgets
--------
-It is also possible to use shortcodes in widgets but this requires an additional
-plugin to be installed (e.g http://wordpress.org/extend/plugins/shortcodes-in-sidebar-widgets/).
-
-Demo
-----
-Here is a demo of the plugin:
-http://jonls.dk/2013/03/trying-out-bitcoin-wordpress-plugin/
 
 Install
 -------
